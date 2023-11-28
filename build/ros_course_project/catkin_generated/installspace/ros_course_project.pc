@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/install
+
+Name: ros_course_project
+Description: Description of ros_course_project
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

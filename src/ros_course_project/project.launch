@@ -1,0 +1,5 @@
+<launch>
+  <node name="project" pkg="ros_course_project" type="main.py" output="screen" />
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_stage_4.launch"/>
+</launch>
+
