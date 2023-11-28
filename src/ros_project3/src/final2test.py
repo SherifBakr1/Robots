@@ -12,8 +12,8 @@ from std_msgs.msg import Float32, Int64
 from geometry_msgs.msg import Twist         #cmd_vel publisher
 from sensor_msgs.msg import LaserScan       #2d lidar data
 from std_srvs.srv import Empty              #reset gazebo world
-from gazebo_msgs.msg import ModelState
-from gazebo_msgs.srv import SetModelState
+#from gazebo_msgs.msg import ModelState
+#from gazebo_msgs.srv import SetModelState
 
 rospack = rospkg.RosPack()
 rospack_path = rospack.get_path("ros_project3")
